@@ -1,0 +1,33 @@
+{
+  "name": "marketing-skills",
+  "owner": {
+    "name": "jaypozo"
+  },
+  "metadata": {
+    "description": "Marketing skills for agents: buyer research, copy, email, SEO, AI search, launches, conversion and paid ads",
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "marketing-skills",
+      "description": "Thirteen marketing skills: buyer research, landing page copy, lead magnets, welcome emails, keyword maps, demo videos, product launches, conversion diagnosis, partner outreach, paid ads tests, on-page SEO, AI search visibility and local SEO",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ai-search-visibility",
+        "./skills/buyer-research",
+        "./skills/conversion-diagnosis",
+        "./skills/demo-video",
+        "./skills/keyword-map",
+        "./skills/landing-page-copy",
+        "./skills/lead-magnet",
+        "./skills/local-seo",
+        "./skills/on-page-seo",
+        "./skills/paid-ads-test",
+        "./skills/partner-outreach",
+        "./skills/product-launch",
+        "./skills/welcome-emails"
+      ]
+    }
+  ]
+}
